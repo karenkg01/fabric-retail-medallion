@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1010" width="1500" height="1010" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">
+<defs><marker id="ah52525B" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52525B"/></marker><marker id="ah2F5597" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F5597"/></marker><marker id="ahB03A3A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B03A3A"/></marker></defs>
+<rect width="1500" height="1010" fill="#FFFFFF"/>
+<text x="30" y="46" font-size="26" font-weight="700" fill="#1F2937">Harborline Retail · Medallion Architecture on Microsoft Fabric</text>
+<text x="1470" y="46" font-size="15" fill="#4B5563" text-anchor="end">Workspace: Retail Medallion Dev → Prod · Git: GitHub</text>
+<rect x="25" y="78" width="218" height="592" rx="14" fill="#FAFAFA" stroke="#71717A" stroke-opacity="0.45" stroke-width="1.6" stroke-dasharray="8 5"/>
+<text x="134.0" y="110" font-size="19" font-weight="700" fill="#71717A" text-anchor="middle" letter-spacing="1.2">1 · SOURCES</text>
+<rect x="269" y="78" width="218" height="592" rx="14" fill="#F3F7FE" stroke="#2F5597" stroke-opacity="0.45" stroke-width="1.6" stroke-dasharray="8 5"/>
+<text x="378.0" y="110" font-size="19" font-weight="700" fill="#2F5597" text-anchor="middle" letter-spacing="1.2">2 · INGESTION</text>
+<rect x="513" y="78" width="218" height="592" rx="14" fill="#FBF3EA" stroke="#8C5A2B" stroke-opacity="0.45" stroke-width="1.6" stroke-dasharray="8 5"/>
+<text x="622.0" y="110" font-size="19" font-weight="700" fill="#8C5A2B" text-anchor="middle" letter-spacing="1.2">3 · BRONZE</text>
+<rect x="757" y="78" width="218" height="592" rx="14" fill="#F4F6F8" stroke="#5F6B78" stroke-opacity="0.45" stroke-width="1.6" stroke-dasharray="8 5"/>
+<text x="866.0" y="110" font-size="19" font-weight="700" fill="#5F6B78" text-anchor="middle" letter-spacing="1.2">4 · SILVER</text>
+<rect x="1001" y="78" width="218" height="592" rx="14" fill="#FDF8E3" stroke="#A07D00" stroke-opacity="0.45" stroke-width="1.6" stroke-dasharray="8 5"/>
+<text x="1110.0" y="110" font-size="19" font-weight="700" fill="#A07D00" text-anchor="middle" letter-spacing="1.2">5 · GOLD</text>
+<rect x="1245" y="78" width="218" height="592" rx="14" fill="#FDF8E3" stroke="#A07D00" stroke-opacity="0.45" stroke-width="1.6" stroke-dasharray="8 5"/>
+<text x="1354.0" y="110" font-size="19" font-weight="700" fill="#A07D00" text-anchor="middle" letter-spacing="1.2">6 · SERVING</text>
+<rect x="39.0" y="130" width="190" height="84" rx="10" fill="#F4F4F5" stroke="#71717A" stroke-width="2.2"/>
+<text x="134.0" y="168.2" font-size="17.5" font-weight="700" fill="#1F2937" text-anchor="middle">POS + e-commerce</text>
+<text x="134.0" y="187.2" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">orders · order lines</text>
+<rect x="39.0" y="233" width="190" height="84" rx="10" fill="#F4F4F5" stroke="#71717A" stroke-width="2.2"/>
+<text x="134.0" y="271.2" font-size="17.5" font-weight="700" fill="#1F2937" text-anchor="middle">CRM</text>
+<text x="134.0" y="290.2" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">customers</text>
+<rect x="39.0" y="336" width="190" height="84" rx="10" fill="#F4F4F5" stroke="#71717A" stroke-width="2.2"/>
+<text x="134.0" y="374.2" font-size="17.5" font-weight="700" fill="#1F2937" text-anchor="middle">Catalog API</text>
+<text x="134.0" y="393.2" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">products (JSON)</text>
+<rect x="39.0" y="439" width="190" height="84" rx="10" fill="#F4F4F5" stroke="#71717A" stroke-width="2.2"/>
+<text x="134.0" y="467.8" font-size="17.5" font-weight="700" fill="#1F2937" text-anchor="middle">Store operations</text>
+<text x="134.0" y="486.8" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">stores · inventory</text>
+<text x="134.0" y="505.8" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">returns</text>
+<rect x="39.0" y="560" width="190" height="84" rx="10" fill="#F4F4F5" stroke="#71717A" stroke-width="2.2"/>
+<text x="134.0" y="598.2" font-size="17.5" font-weight="700" fill="#1F2937" text-anchor="middle">Public API</text>
+<text x="134.0" y="617.2" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">US holidays</text>
+<path d="M283.0,188 L283.0,312 A95.0,13 0 0 0 473.0,312 L473.0,188 A95.0,13 0 0 0 283.0,188 Z" fill="#F4F4F5" stroke="#71717A" stroke-width="2.4"/>
+<ellipse cx="378.0" cy="188" rx="95.0" ry="13" fill="#F4F4F5" stroke="#71717A" stroke-width="2.4"/>
+<text x="378.0" y="233.8" font-size="17.5" font-weight="700" fill="#1F2937" text-anchor="middle">lh_source</text>
+<text x="378.0" y="252.8" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">landing zone</text>
+<text x="378.0" y="271.8" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">daily files</text>
+<text x="378.0" y="290.8" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">+ manifests</text>
+<rect x="283.0" y="375" width="190" height="110" rx="10" fill="#DBE7FB" stroke="#2F5597" stroke-width="2.2"/>
+<text x="378.0" y="416.8" font-size="17.5" font-weight="700" fill="#1F2937" text-anchor="middle">pl_ingest_batch</text>
+<text x="378.0" y="435.8" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">metadata-driven</text>
+<text x="378.0" y="454.8" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">copy + watermarks</text>
+<rect x="283.0" y="560" width="190" height="84" rx="10" fill="#DBE7FB" stroke="#2F5597" stroke-width="2.2"/>
+<text x="378.0" y="598.2" font-size="17.5" font-weight="700" fill="#1F2937" text-anchor="middle">df_bronze_holidays</text>
+<text x="378.0" y="617.2" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">Dataflow Gen2</text>
+<path d="M229.0,172.0 L279.0,250" fill="none" stroke="#52525B" stroke-width="2.2" marker-end="url(#ah52525B)"/>
+<path d="M229.0,275.0 L279.0,250" fill="none" stroke="#52525B" stroke-width="2.2" marker-end="url(#ah52525B)"/>
+<path d="M229.0,378.0 L279.0,250" fill="none" stroke="#52525B" stroke-width="2.2" marker-end="url(#ah52525B)"/>
+<path d="M229.0,481.0 L279.0,250" fill="none" stroke="#52525B" stroke-width="2.2" marker-end="url(#ah52525B)"/>
+<path d="M378.0,325 L378.0,371" fill="none" stroke="#52525B" stroke-width="2.2" marker-end="url(#ah52525B)"/>
+<path d="M229.0,602.0 L279.0,602.0" fill="none" stroke="#52525B" stroke-width="2.2" marker-end="url(#ah52525B)"/>
+<path d="M524.0,203 L524.0,507 A98.0,13 0 0 0 720.0,507 L720.0,203 A98.0,13 0 0 0 524.0,203 Z" fill="#EBCBA8" stroke="#8C5A2B" stroke-width="2.4"/>
+<ellipse cx="622.0" cy="203" rx="98.0" ry="13" fill="#EBCBA8" stroke="#8C5A2B" stroke-width="2.4"/>
+<text x="622.0" y="291.2" font-size="17.5" font-weight="700" fill="#1F2937" text-anchor="middle">lh_bronze</text>
+<text x="622.0" y="310.2" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">raw Delta tables</text>
+<text x="622.0" y="329.2" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">all columns as text</text>
+<text x="622.0" y="348.2" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">append-only</text>
+<text x="622.0" y="367.2" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle"></text>
+<text x="622.0" y="386.2" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">+ _ingest_ts</text>
+<text x="622.0" y="405.2" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">+ _source_file</text>
+<text x="622.0" y="424.2" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">+ _batch_id</text>
+<text x="622.0" y="443.2" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">+ _row_hash</text>
+<path d="M473.0,430 L520.0,430" fill="none" stroke="#52525B" stroke-width="2.2" marker-end="url(#ah52525B)"/>
+<path d="M473.0,602 L507,602 L507,490 L520.0,490" fill="none" stroke="#52525B" stroke-width="2.2" marker-end="url(#ah52525B)"/>
+<rect x="771.0" y="130" width="190" height="92" rx="10" fill="#E4E8EC" stroke="#5F6B78" stroke-width="2.2"/>
+<text x="866.0" y="162.8" font-size="17.5" font-weight="700" fill="#1F2937" text-anchor="middle">nb_silver_*</text>
+<text x="866.0" y="181.8" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">clean · type</text>
+<text x="866.0" y="200.8" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">dedupe · MERGE</text>
+<rect x="771.0" y="262" width="190" height="92" rx="10" fill="#E4E8EC" stroke="#5F6B78" stroke-width="2.2"/>
+<text x="866.0" y="294.8" font-size="17.5" font-weight="700" fill="#1F2937" text-anchor="middle">nb_dq_checks</text>
+<text x="866.0" y="313.8" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">20 data-quality</text>
+<text x="866.0" y="332.8" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">rules</text>
+<path d="M771.0,407 L771.0,531 A95.0,13 0 0 0 961.0,531 L961.0,407 A95.0,13 0 0 0 771.0,407 Z" fill="#E4E8EC" stroke="#5F6B78" stroke-width="2.4"/>
+<ellipse cx="866.0" cy="407" rx="95.0" ry="13" fill="#E4E8EC" stroke="#5F6B78" stroke-width="2.4"/>
+<text x="866.0" y="452.8" font-size="17.5" font-weight="700" fill="#1F2937" text-anchor="middle">lh_silver</text>
+<text x="866.0" y="471.8" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">validated tables</text>
+<text x="866.0" y="490.8" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">SCD Type 2</text>
+<text x="866.0" y="509.8" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">customers + products</text>
+<rect x="796.0" y="580" width="140" height="70" rx="10" fill="#F8D7D7" stroke="#B03A3A" stroke-width="2.2"/>
+<text x="866.0" y="611.0" font-size="16" font-weight="700" fill="#1F2937" text-anchor="middle">quarantine</text>
+<text x="866.0" y="629.0" font-size="14" font-weight="400" fill="#4B5563" text-anchor="middle">rejected rows</text>
+<path d="M720.0,260 L767.0,176" fill="none" stroke="#52525B" stroke-width="2.2" marker-end="url(#ah52525B)"/>
+<path d="M866.0,222 L866.0,258" fill="none" stroke="#52525B" stroke-width="2.2" marker-end="url(#ah52525B)"/>
+<path d="M866.0,354 L866.0,390" fill="none" stroke="#52525B" stroke-width="2.2" marker-end="url(#ah52525B)"/>
+<rect x="874.0" y="359" width="88.0" height="22" rx="5" fill="#FFFFFF" stroke="#D4D4D8"/>
+<text x="918.0" y="375" font-size="13.5" fill="#4B5563" text-anchor="middle" font-style="italic">valid rows</text>
+<path d="M771.0,330 L763,330 L763,615 L792.0,615" fill="none" stroke="#B03A3A" stroke-width="2.2" marker-end="url(#ahB03A3A)"/>
+<path d="M1012.0,173 L1012.0,537 A98.0,13 0 0 0 1208.0,537 L1208.0,173 A98.0,13 0 0 0 1012.0,173 Z" fill="#F7E39A" stroke="#A07D00" stroke-width="2.4"/>
+<ellipse cx="1110.0" cy="173" rx="98.0" ry="13" fill="#F7E39A" stroke="#A07D00" stroke-width="2.4"/>
+<text x="1110.0" y="256.2" font-size="17.5" font-weight="700" fill="#1F2937" text-anchor="middle">lh_gold</text>
+<text x="1110.0" y="274.8" font-size="14.5" font-weight="400" fill="#4B5563" text-anchor="middle">star schema</text>
+<text x="1110.0" y="293.2" font-size="14.5" font-weight="400" fill="#4B5563" text-anchor="middle">built by nb_gold_*</text>
+<text x="1110.0" y="311.8" font-size="14.5" font-weight="400" fill="#4B5563" text-anchor="middle"></text>
+<text x="1110.0" y="330.2" font-size="14.5" font-weight="400" fill="#4B5563" text-anchor="middle">dim_date</text>
+<text x="1110.0" y="348.8" font-size="14.5" font-weight="400" fill="#4B5563" text-anchor="middle">dim_customer</text>
+<text x="1110.0" y="367.2" font-size="14.5" font-weight="400" fill="#4B5563" text-anchor="middle">dim_product</text>
+<text x="1110.0" y="385.8" font-size="14.5" font-weight="400" fill="#4B5563" text-anchor="middle">dim_store</text>
+<text x="1110.0" y="404.2" font-size="14.5" font-weight="400" fill="#4B5563" text-anchor="middle"></text>
+<text x="1110.0" y="422.8" font-size="14.5" font-weight="400" fill="#4B5563" text-anchor="middle">fact_sales</text>
+<text x="1110.0" y="441.2" font-size="14.5" font-weight="400" fill="#4B5563" text-anchor="middle">fact_returns</text>
+<text x="1110.0" y="459.8" font-size="14.5" font-weight="400" fill="#4B5563" text-anchor="middle">fact_inventory_daily</text>
+<text x="1110.0" y="478.2" font-size="14.5" font-weight="400" fill="#4B5563" text-anchor="middle">agg_daily_store_sales</text>
+<path d="M961.0,470 L1008.0,470" fill="none" stroke="#52525B" stroke-width="2.2" marker-end="url(#ah52525B)"/>
+<rect x="1259.0" y="150" width="190" height="100" rx="10" fill="#F7E39A" stroke="#A07D00" stroke-width="2.2"/>
+<text x="1354.0" y="186.8" font-size="17.5" font-weight="700" fill="#1F2937" text-anchor="middle">sm_retail_sales</text>
+<text x="1354.0" y="205.8" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">Direct Lake model</text>
+<text x="1354.0" y="224.8" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">measures + RLS</text>
+<rect x="1259.0" y="300" width="190" height="100" rx="10" fill="#F7E39A" stroke="#A07D00" stroke-width="2.2"/>
+<text x="1354.0" y="336.8" font-size="17.5" font-weight="700" fill="#1F2937" text-anchor="middle">Power BI reports</text>
+<text x="1354.0" y="355.8" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">sales overview</text>
+<text x="1354.0" y="374.8" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">pipeline health</text>
+<rect x="1259.0" y="450" width="190" height="100" rx="10" fill="#F7E39A" stroke="#A07D00" stroke-width="2.2"/>
+<text x="1354.0" y="496.2" font-size="17.5" font-weight="700" fill="#1F2937" text-anchor="middle">Sales forecast</text>
+<text x="1354.0" y="515.2" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">ML notebook</text>
+<path d="M1208.0,220 L1255.0,200" fill="none" stroke="#52525B" stroke-width="2.2" marker-end="url(#ah52525B)"/>
+<path d="M1354.0,250 L1354.0,296" fill="none" stroke="#52525B" stroke-width="2.2" marker-end="url(#ah52525B)"/>
+<path d="M1208.0,480 L1255.0,500" fill="none" stroke="#52525B" stroke-width="2.2" marker-end="url(#ah52525B)"/>
+<rect x="30" y="730" width="1440" height="200" rx="14" fill="#F3F7FE" stroke="#2F5597" stroke-opacity="0.45" stroke-width="1.6" stroke-dasharray="8 5"/>
+<text x="750.0" y="762" font-size="19" font-weight="700" fill="#2F5597" text-anchor="middle" letter-spacing="1.2">OPERATIONS · ORCHESTRATION · MONITORING</text>
+<rect x="90" y="790" width="330" height="110" rx="10" fill="#DBE7FB" stroke="#2F5597" stroke-width="2.2"/>
+<text x="255.0" y="831.8" font-size="17.5" font-weight="700" fill="#1F2937" text-anchor="middle">pl_master_daily</text>
+<text x="255.0" y="850.8" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">runs 2 → 6 in order, daily 06:00</text>
+<text x="255.0" y="869.8" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">retries · failure paths</text>
+<path d="M585.0,795 L585.0,895 A165.0,13 0 0 0 915.0,895 L915.0,795 A165.0,13 0 0 0 585.0,795 Z" fill="#DBE7FB" stroke="#2F5597" stroke-width="2.4"/>
+<ellipse cx="750.0" cy="795" rx="165.0" ry="13" fill="#DBE7FB" stroke="#2F5597" stroke-width="2.4"/>
+<text x="750.0" y="838.2" font-size="17.5" font-weight="700" fill="#1F2937" text-anchor="middle">lh_framework</text>
+<text x="750.0" y="857.2" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">ingestion config · watermarks</text>
+<text x="750.0" y="876.2" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">audit log · DQ results</text>
+<rect x="1080" y="790" width="330" height="110" rx="10" fill="#DBE7FB" stroke="#2F5597" stroke-width="2.2"/>
+<text x="1245.0" y="831.8" font-size="17.5" font-weight="700" fill="#1F2937" text-anchor="middle">act_pipeline_alerts</text>
+<text x="1245.0" y="850.8" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">Activator: failures, DQ breaches,</text>
+<text x="1245.0" y="869.8" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">volume drops, late data</text>
+<path d="M420,845 L581.0,845" fill="none" stroke="#52525B" stroke-width="2.2" marker-end="url(#ah52525B)"/>
+<rect x="440.0" y="810" width="125.0" height="22" rx="5" fill="#FFFFFF" stroke="#D4D4D8"/>
+<text x="502.5" y="826" font-size="13.5" fill="#4B5563" text-anchor="middle" font-style="italic">logs every step</text>
+<path d="M915.0,845 L1076,845" fill="none" stroke="#52525B" stroke-width="2.2" marker-end="url(#ah52525B)"/>
+<rect x="964.6" y="810" width="65.80000000000001" height="22" rx="5" fill="#FFFFFF" stroke="#D4D4D8"/>
+<text x="997.5" y="826" font-size="13.5" fill="#4B5563" text-anchor="middle" font-style="italic">watches</text>
+<path d="M255.0,790 L255.0,700 L1354.0,700" fill="none" stroke="#2F5597" stroke-width="2" stroke-dasharray="7 5"/>
+<path d="M378.0,700 L378.0,674" fill="none" stroke="#2F5597" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#ah2F5597)"/>
+<path d="M866.0,700 L866.0,674" fill="none" stroke="#2F5597" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#ah2F5597)"/>
+<path d="M1110.0,700 L1110.0,674" fill="none" stroke="#2F5597" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#ah2F5597)"/>
+<path d="M1354.0,700 L1354.0,674" fill="none" stroke="#2F5597" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#ah2F5597)"/>
+<text x="622.0" y="692" font-size="13.5" fill="#2F5597" text-anchor="middle" font-style="italic">triggers</text>
+<text x="30" y="973" font-size="14" font-weight="700" fill="#4B5563">LEGEND</text>
+<rect x="110" y="958" width="22" height="18" rx="4" fill="#F4F4F5" stroke="#71717A" stroke-width="2"/>
+<text x="140" y="972" font-size="14" fill="#4B5563">source / landing</text>
+<rect x="295.6" y="958" width="22" height="18" rx="4" fill="#DBE7FB" stroke="#2F5597" stroke-width="2"/>
+<text x="325.6" y="972" font-size="14" fill="#4B5563">pipeline · dataflow · framework</text>
+<rect x="595.2" y="958" width="22" height="18" rx="4" fill="#EBCBA8" stroke="#8C5A2B" stroke-width="2"/>
+<text x="625.2" y="972" font-size="14" fill="#4B5563">bronze</text>
+<rect x="704.8000000000001" y="958" width="22" height="18" rx="4" fill="#E4E8EC" stroke="#5F6B78" stroke-width="2"/>
+<text x="734.8000000000001" y="972" font-size="14" fill="#4B5563">silver</text>
+<rect x="814.4000000000001" y="958" width="22" height="18" rx="4" fill="#F7E39A" stroke="#A07D00" stroke-width="2"/>
+<text x="844.4000000000001" y="972" font-size="14" fill="#4B5563">gold</text>
+<rect x="908.8000000000001" y="958" width="22" height="18" rx="4" fill="#F8D7D7" stroke="#B03A3A" stroke-width="2"/>
+<text x="938.8000000000001" y="972" font-size="14" fill="#4B5563">rejected data</text>
+<text x="1470" y="972" font-size="14" fill="#4B5563" text-anchor="end">solid arrow = data flow · dashed arrow = control flow</text>
+</svg>
