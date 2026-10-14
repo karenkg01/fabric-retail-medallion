@@ -288,6 +288,7 @@ print("load_source is ready")
 # CELL ********************
 
 # Step 9: load every active source in load_order (or only the one passed in the source_name parameter)
+config = {r["source_name"]: r.asDict() for r in spark.table(f"{FRAMEWORK}.ingestion_config").collect()}
 sources = [r["source_name"] for r in
            spark.table(f"{FRAMEWORK}.ingestion_config").where("is_active").orderBy("load_order").collect()]
 if source_name != "all":
