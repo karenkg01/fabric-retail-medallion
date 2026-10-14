@@ -274,7 +274,8 @@ def load_source(source):
 
     except Exception as e:
         log_run(source, "Failed", d_to, 0, 0, start_ts, str(e)[:4000])   # record the failure...
-        raise                                                           # ...then stop with the error
+        e.logged = True                                                    # ...mark it as logged...
+        raise                                                              # ...then stop with the error                                                           # ...then stop with the error
 
 print("load_source is ready")
 
@@ -296,11 +297,17 @@ if source_name != "all":
 
 failed = []
 for s in sources:
+    start_ts = datetime.now(timezone.utc)
     try:
         load_source(s)
     except Exception as e:
         print(f"{s}: FAILED - {e}")
         failed.append(s)      # keep going with the other sources
+        if not getattr(e, "logged", False):     # only log if load_source didn't already
+            try:
+                log_run(s, "Failed", None, 0, 0, start_ts, error=str(e)[:1000])
+            except Exception as log_err:
+                print(f"{s}: could not write failure to run log - {log_err}")
 
 if failed:
     raise RuntimeError(f"Bronze load failed for: {failed}")   # fail the notebook so a pipeline sees it

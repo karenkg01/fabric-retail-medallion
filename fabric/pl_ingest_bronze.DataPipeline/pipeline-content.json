@@ -98,7 +98,8 @@
                     },
                     "type": "string"
                   }
-                }
+                },
+                "sessionTag": "bronze_load"
               },
               "policy": {
                 "timeout": "0.12:00:00",
