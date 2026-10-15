@@ -101,7 +101,7 @@ box(sx, src_y[4], bw, bh, "src", ["Public API", "US holidays"])
 # 2 · ingestion
 ix = cols[1] + (CW - bw) / 2
 box(ix, 175, bw, 150, "src", ["lh_source", "landing zone", "daily files", "+ manifests"], shape="cyl")
-box(ix, 375, bw, 110, "ops", ["pl_ingest_batch", "metadata-driven", "copy + watermarks"])
+box(ix, 375, bw, 110, "ops", ["pl_ingest_bronze", "config-driven loop", "→ nb_bronze_load"])
 box(ix, 560, bw, bh, "ops", ["df_bronze_holidays", "Dataflow Gen2"])
 for y in src_y[:4]:
     arrow([(sx + bw, y + bh / 2), (ix - 4, 250)])
@@ -111,7 +111,7 @@ arrow([(sx + bw, src_y[4] + bh / 2), (ix - 4, src_y[4] + bh / 2)])
 # 3 · bronze
 cw_ = 196
 bx = cols[2] + (CW - cw_) / 2
-box(bx, 190, cw_, 330, "bronze", ["lh_bronze", "raw Delta tables", "all columns as text", "append-only", "",
+box(bx, 190, cw_, 330, "bronze", ["lh_bronze", "raw Delta tables", "all columns as text", "replace by date", "",
                                   "+ _ingest_ts", "+ _source_file", "+ _batch_id", "+ _row_hash"], shape="cyl")
 arrow([(ix + bw, 430), (bx - 4, 430)])
 arrow([(ix + bw, 602), (cols[2] - 6, 602), (cols[2] - 6, 490), (bx - 4, 490)])

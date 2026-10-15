@@ -38,9 +38,9 @@
 <text x="378.0" y="271.8" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">daily files</text>
 <text x="378.0" y="290.8" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">+ manifests</text>
 <rect x="283.0" y="375" width="190" height="110" rx="10" fill="#DBE7FB" stroke="#2F5597" stroke-width="2.2"/>
-<text x="378.0" y="416.8" font-size="17.5" font-weight="700" fill="#1F2937" text-anchor="middle">pl_ingest_batch</text>
-<text x="378.0" y="435.8" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">metadata-driven</text>
-<text x="378.0" y="454.8" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">copy + watermarks</text>
+<text x="378.0" y="416.8" font-size="17.5" font-weight="700" fill="#1F2937" text-anchor="middle">pl_ingest_bronze</text>
+<text x="378.0" y="435.8" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">config-driven loop</text>
+<text x="378.0" y="454.8" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">→ nb_bronze_load</text>
 <rect x="283.0" y="560" width="190" height="84" rx="10" fill="#DBE7FB" stroke="#2F5597" stroke-width="2.2"/>
 <text x="378.0" y="598.2" font-size="17.5" font-weight="700" fill="#1F2937" text-anchor="middle">df_bronze_holidays</text>
 <text x="378.0" y="617.2" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">Dataflow Gen2</text>
@@ -55,7 +55,7 @@
 <text x="622.0" y="291.2" font-size="17.5" font-weight="700" fill="#1F2937" text-anchor="middle">lh_bronze</text>
 <text x="622.0" y="310.2" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">raw Delta tables</text>
 <text x="622.0" y="329.2" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">all columns as text</text>
-<text x="622.0" y="348.2" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">append-only</text>
+<text x="622.0" y="348.2" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">replace by date</text>
 <text x="622.0" y="367.2" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle"></text>
 <text x="622.0" y="386.2" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">+ _ingest_ts</text>
 <text x="622.0" y="405.2" font-size="15" font-weight="400" fill="#4B5563" text-anchor="middle">+ _source_file</text>
